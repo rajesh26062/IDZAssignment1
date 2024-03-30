@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+            <TextView
+                android:id="@+id/WC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:text="Welcome User"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="40dp"
+                android:textColor="@color/black"
+                />
+
+    <TextView
+        android:id="@+id/PEYC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/WC"
+        android:text="Please enter your credentials"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PEYC"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:hint="Name"/>
+
+    <EditText
+        android:id="@+id/editTextDOB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:inputType="date"
+        android:layout_marginRight="30dp"
+        android:layout_below="@id/editTextName"
+        android:layout_marginTop="20dp"
+        android:hint="DOB (MM/dd/yyyy)"/>
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/editTextDOB"
+        android:layout_marginTop="20dp"
+        android:hint="Email"/>
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Submit"
+        />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Heading -->
+    <TextView
+        android:id="@+id/textViewHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration Successful"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Subtitle -->
+    <TextView
+        android:id="@+id/textViewSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your details are submitted successfully"
+        android:textSize="16sp"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- TableLayout for User Details -->
+
+    <TableLayout
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+        >
+        <!-- Column Headers -->
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Name"
+                android:gravity="center"
+                android:textColor="@color/black"
+                 />
+
+            <TextView
+                android:id="@+id/textViewDOB"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:gravity="center"
+                android:text="Birthday"
+                android:textColor="@color/black"
+                 />
+
+            <TextView
+                android:id="@+id/textViewEmail"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="Email ID"
+                 />
+        </TableRow>
+
+<!--        &lt;!&ndash; User Details Row &ndash;&gt;-->
+<!--        <TableRow>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textViewName"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:padding="8dp"-->
+<!--                android:text="Rajesh" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textViewBirthday"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:padding="8dp"-->
+<!--                android:text="26 June 2002" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textViewEmail"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:padding="8dp"-->
+<!--                android:text="abc@gmail.com" />-->
+<!--        </TableRow>-->
+
+    </TableLayout>
+
+</LinearLayout>
